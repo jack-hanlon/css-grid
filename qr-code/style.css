@@ -69,8 +69,3 @@ h3 {
 .card:nth-of-type(1) {
   grid-column: 2 / 3;
 }
-/* @media(max-width: 375px){
-  .container{
-    grid-template-columns: 1fr;
-  }
-} */
