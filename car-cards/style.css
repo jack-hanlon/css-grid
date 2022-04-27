@@ -72,3 +72,6 @@ p {
   background: #0D4A4D;
   grid-column: 3;
 }
+@media(max-width:300px){
+  .container {grid-template-columns: 1fr}
+}
