@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
 }
-body,html {
+body {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   line-height: 1.5;
@@ -18,8 +18,8 @@ body,html {
 }
 
 .container {
-  /* margin: 70px auto; */
-  /* padding: 70px; */
+  margin: 70px auto;
+  padding: 90px;
   display: grid;
   grid-template-columns: 1fr;
 
