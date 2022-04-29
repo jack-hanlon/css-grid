@@ -40,6 +40,7 @@ a {
 }
 h1 {
   font-size: 75px;
+  font-weight: bolder;
   color: #fff;
   text-transform: uppercase;
 }
@@ -52,7 +53,7 @@ h1 {
   grid-column: 1 / 5;;
   height: 750px;
   align-items: center;
-  font-family: 'Times New Roman', sans-serif;
+  font-family: 'Fraunces', sans-serif;
 
 
 }
@@ -118,6 +119,8 @@ h1 {
 .card:nth-of-type(13) {
 
   grid-column: 1 / 5;
+  background-color: #73D5B3;
+  align-items: center;
 
 }
 .quad__img {
@@ -133,6 +136,12 @@ h1 {
   width: 36px;
   position: relative;
   top: 350px;
+}
+.img__icons{
+  margin-top: 10px;
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
 }
 .title {
   position: relative;
@@ -157,6 +166,12 @@ h1 {
   padding-top: 20px;
   font-size: 25px;
   text-shadow: 0px 20px 25px red;
+}
+.sunnyside {
+  font-size: 40px;
+  color: hsl(168, 34%, 41%);
+  font-weight: bolder;
+  padding-bottom: 10px;
 }
 
 
