@@ -1,0 +1,138 @@
+* {
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+body {
+ font-family: 'Open Sans', sans-serif;
+ font-size: 16px;
+ line-height: 1.5;
+ color: #333;
+ background: #C6DDDB;
+}
+
+.container {
+ max-width: 1440px;
+ margin: 100px auto;
+ padding: 10px;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ align-items: center;
+ justify-content: center;
+ /* grid-gap: 10px; */
+}
+
+.card {
+  background: #000;
+  min-height: 280px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  flex-direction: column;
+  /* margin: 10px; */
+  padding: 30px;
+
+}
+.card__1__title {
+  font-size: 30px;
+  color: #3ADFCF;
+}
+.card__1__subtitle {
+  font-size: 20px;
+  color: #99EA5C;
+}
+.card__1__content {
+  font-size: 16px;
+  color: #ADADAD;
+  max-width: 75%;
+}
+
+.card__2__title {
+  font-size: 30px;
+  color: #fff;
+}
+.card__2__subtitle {
+  font-size: 40px;
+  color: #fff;
+}
+.card__2__subtitle__split {
+  font-size: 20px;
+  color: #fff;
+}
+.card__2__content {
+  font-size: 16px;
+  color: #fff;
+  max-width: 75%;
+  padding-bottom: 30px;
+}
+.card__3__title {
+  font-size: 30px;
+  color: #fff;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+.card__3__content {
+  font-size: 16px;
+  color: #fff;
+  max-width: 75%;
+  padding-left: 40px;
+  padding-top: 5px;
+}
+.card:nth-of-type(1) {
+  background: #fff;
+  grid-column: 1 / 4;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.card:nth-of-type(2) {
+  background: #17AFBC;
+  grid-column: 1 / 2 ;
+  border-radius: 0px 0px 0px 15px;
+  min-height: 350px;
+}
+.card:nth-of-type(3) {
+  background: #3ADFCF;
+  grid-column: 2 ;
+  border-radius: 0px 0px 15px 0px;
+  min-height: 350px;
+}
+.btn {
+  background-color: #fff; /* Green */
+  border: #fff 2px solid;
+
+  border-radius: 15px;
+  color: #3ADFCF;
+
+  font-size: 22px;
+  width: 250px;
+  height:60px;
+
+
+}
+
+.btn:hover {
+  background-color: #3ADFCF;
+  color: #fff;
+  border: #3ADFCF 2px solid;
+}
+
+
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .card:nth-of-type(1) {
+    grid-column: 1;
+  }
+
+  .card:nth-of-type(2) {
+    grid-column: 1 ;
+    border-radius: 0px 0px 0px 0px;
+  }
+  .card:nth-of-type(3) {
+    grid-column: 1  ;
+    border-radius: 0px 0px 15px 15px;
+  }
+
+}
