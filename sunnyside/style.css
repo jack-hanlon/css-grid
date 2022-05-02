@@ -94,6 +94,8 @@ h1 {
 .card:nth-of-type(8) {
 
   grid-column: 1 / 5;
+  align-items: center;
+
 
 }
 .card:nth-of-type(9) {
@@ -142,6 +144,12 @@ h1 {
   height: 25px;
   width: 25px;
   margin-right: 10px;
+}
+.img__people {
+  height: 70px;
+  width: 70px;
+  border-radius: 40px;
+
 }
 .title {
   position: relative;
