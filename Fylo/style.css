@@ -24,9 +24,10 @@ body {
   font-size: 20px;
   padding: 30px;
   display: flex;
+  /* margin-top: 100px; */
   /* justify-content: center; */
-  /* align-items: center; */
-  text-align: left;
+  align-items: center;
+  text-align: center;
   flex-direction: column;
   height: 530px;
 }
@@ -59,7 +60,7 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-
+  font-weight: bolder;
 }
 
 .btn:hover {
@@ -70,7 +71,20 @@ body {
 .intro__img {
   max-height: 720px;
   max-width: 534px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
+}
+.title {
+  font-size: 60px;
+  max-width: 1000px;
+  padding-bottom: 50px;
+}
+.subtitle {
+  font-size: 30px;
+  font-weight: normal;
+  max-width: 900px;
+  padding-bottom: 50px;
 }
 nav {
   display: flex;
