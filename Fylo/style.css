@@ -1,0 +1,99 @@
+* {
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+body {
+ font-family: 'Barlow', sans-serif;
+ font-size: 16px;
+ line-height: 1.5;
+ color: #333;
+ background: hsl(217, 28%, 15%);
+}
+
+.container {
+  /* max-width: 1440px; */
+  margin: 60px auto;
+  /* padding: 10px; */
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.section {
+
+  color: #FFF;
+  font-size: 20px;
+  padding: 30px;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: left;
+  flex-direction: column;
+  height: 530px;
+}
+.section:nth-of-type(1) {
+  background-image: url("images/bg-curvy-desktop.svg");
+  background-repeat: no-repeat;
+  /* background-position: bottom; */
+  background-position: 50% 105%;
+  background-size: contain;
+  height:1300px;
+}
+.section:nth-of-type(2) {
+  background-color: #181F2B;
+  /* hsl(218, 28%, 13%); */
+  height:1000px;
+}
+.section:nth-of-type(3) {
+  background-color: hsl(216, 53%, 9%);
+  height:500px;
+}
+
+.btn {
+  background-color: hsl(176, 68%, 64%); /* Green */
+  border: hsl(176, 68%, 64%) 2px solid;
+
+  border-radius: 25px;
+  color: #fff;
+  padding: 15px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+.btn:hover {
+  background-color: #fff;
+  border: #fff 2px solid;
+  color: hsl(176, 68%, 64%);
+}
+.intro__img {
+  max-height: 720px;
+  max-width: 534px;
+
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%; */
+
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 50px;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: hsl(176, 68%, 64%);
+  transition: .3s;
+}
