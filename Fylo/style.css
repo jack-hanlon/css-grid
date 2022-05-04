@@ -133,6 +133,17 @@ body {
 .content__subtitle {
   max-width: 500px;
 }
+.productive__title {
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-align: left;
+  max-width: 500px;
+}
+.productive__subtitle {
+  max-width: 800px;
+  margin-bottom: 20px;
+  text-align: left;
+}
 nav {
   display: flex;
   align-items: center;
@@ -155,4 +166,9 @@ nav ul li a{
 nav ul li a:hover {
   color: hsl(176, 68%, 64%);
   transition: .3s;
+}
+a {
+  color: hsl(176, 68%, 64%);
+  text-decoration: underline;
+  /* transition: .3s; */
 }
