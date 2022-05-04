@@ -1,2 +1,2 @@
 # css-grid
-Learning more CSS
+Learning more CSS (Grid and Flexbox)
