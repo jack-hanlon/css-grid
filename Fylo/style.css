@@ -77,9 +77,18 @@ body {
 
 }
 .section:nth-of-type(5) {
+  background-color: #181F2B;
+  height:500px;
+  flex-direction: row;
+  
+}
+
+
+.section:nth-of-type(6) {
   background-color: hsl(216, 53%, 9%);
   height:500px;
 }
+
 
 .btn {
   background-color: hsl(176, 68%, 64%); /* Green */
