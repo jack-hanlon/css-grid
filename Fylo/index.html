@@ -8,6 +8,7 @@
   content="width=device-width,initial-scale=1.0">
   <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fraunces"> -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="style.css">
   <title>Fylo</title>
 </head>
@@ -21,41 +22,44 @@
       <li><a href="#">Sign In</a></li>
     </ul>
   </nav>
+  <div data-aos="fade-in" data-aos-duration="3000">
   <div class="section">
   <img src="images/illustration-intro.png" alt="" class="intro__img"/>
   <p class="title">All your files in one secure location, accessible anywhere.</p>
   <p class="subtitle">Fylo stores all your most important files in one secure location. Access them whenever you need, share and collaborate with friends and family, and co-workers.</p>
   <button type="button" class="btn">Get Started</button>
 </div>
+</div>
+
 <div class="section">
-  <div class="card">
+  <div class="card" data-aos="fade-right">
     <img src="images/icon-access-anywhere.svg" alt="" class="content__img" />
     <p class="content__title">Access your files anywhere</p>
     <p class="content__subtitle">The ability to use a smart phone, tablet or computer to access your account means your files follow you everywhere.</p>
   </div>
-  <div class="card">
+  <div class="card" data-aos="fade-left">
     <img src="images/icon-security.svg" alt="" class="content__img" />
     <p class="content__title">Security you can trust</p>
     <p class="content__subtitle">2-factor authentication and user controlled encryption are just a couple of the security features we allow to help secure your files.</p>
   </div>
   </div>
   <div class="section">
-  <div class="card">
+  <div class="card" data-aos="fade-right">
     <img src="images/icon-collaboration.svg" alt="" class="content__img" />
     <p class="content__title">Real time collaboration</p>
     <p class="content__subtitle">Securely share files and folders with friends,family and colleagues for live collaboration. No email attachments required.</p>
   </div>
-  <div class="card">
+  <div class="card" data-aos="fade-left">
     <img src="images/icon-any-file.svg" alt="" class="content__img" />
     <p class="content__title">Store any type of file</p>
     <p class="content__subtitle">Whether you're sharing holiday photos or work documents, Fylo has you covered for all file types to be securely stored and shared.</p>
   </div>
 </div>
 <div class="section">
-  <div class="card">
+  <div class="card" data-aos="fade-right">
     <img src="images/illustration-stay-productive.png" alt="" />
   </div>
-  <div class="card">
+  <div class="card" data-aos="fade-left">
     <p class="productive__title">Stay productive, wherever you are</p>
     <p class="productive__subtitle">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
     <p class="productive__subtitle">Securely share files and folders for collaboration with friends, family and colleagues.No email attachments required.</p>
@@ -63,19 +67,19 @@
   </div>
 </div>
 <div class="section section-testimonials">
-  <div class="card card-testimonial">
+  <div class="card card-testimonial" data-aos="flip-left">
     <p class="productive__subtitle productive__subtitle-testimonial">"Fylo has improved our team productivity by an order of magnitude.Since making the switch our team has become a well-oiled collaboration machine."</p>
     <img src="images/profile-1.jpg" alt="" class="headshot"/>
     <p class="name">Satish Patel</p>
     <p class="job">Founder and CEO Huddle</p>
   </div>
-  <div class="card card-testimonial">
+  <div class="card card-testimonial" data-aos="flip-left">
     <p class="productive__subtitle productive__subtitle-testimonial">"Fylo has improved our team productivity by an order of magnitude.Since making the switch our team has become a well-oiled collaboration machine."</p>
     <img src="images/profile-2.jpg" alt="" class="headshot"/>
     <p class="name">Bruce McMahon</p>
     <p class="job">Founder and CEO Bitlab</p>
   </div>
-  <div class="card card-testimonial">
+  <div class="card card-testimonial" data-aos="flip-left">
     <p class="productive__subtitle productive__subtitle-testimonial">"Fylo has improved our team productivity by an order of magnitude.Since making the switch our team has become a well-oiled collaboration machine."</p>
     <img src="images/profile-3.jpg" alt="" class="headshot"/>
     <p class="name">Iva Boyd</p>
@@ -83,7 +87,7 @@
   </div>
 </div>
 <div class="section">
-  <div class="card card-earlyaccess">
+  <div class="card card-earlyaccess" data-aos="zoom-in">
     <p class="title">Get early access today</p>
     <p class="subtitle">It only takes two minutes to sign up, and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
     <textarea>Enter your email address</textarea>
@@ -92,5 +96,9 @@
   </div>
 </div>
 </div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
